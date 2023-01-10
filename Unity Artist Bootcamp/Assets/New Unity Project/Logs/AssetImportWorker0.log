@@ -1,0 +1,293 @@
+Unity Editor version:    2021.3.15f1 (e8e88683f834)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/2021.3.15f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/belleparker/Documents/GitHub/unityartistbootcamp/Unity Artist Bootcamp/Assets/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61900
+Successfully changed project path to: /Users/belleparker/Documents/GitHub/unityartistbootcamp/Unity Artist Bootcamp/Assets/New Unity Project
+/Users/belleparker/Documents/GitHub/unityartistbootcamp/Unity Artist Bootcamp/Assets/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704301417664] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 3031597141 [EditorId] 3031597141 [Version] 1048832 [Id] OSXEditor(0,Bella) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704301417664] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 3031597141 [EditorId] 3031597141 [Version] 1048832 [Id] OSXEditor(0,Bella) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 277.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path /Applications/2021.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/belleparker/Documents/GitHub/unityartistbootcamp/Unity Artist Bootcamp/Assets/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 650
+Initialize mono
+Mono path[0] = '/Applications/2021.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2021.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/2021.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56273
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2021.3.15f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2021.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.007095 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 214.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.255 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3257ms)
+		BeginReloadAssembly (412ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2438ms)
+			LoadAssemblies (412ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (596ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (1262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (215ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (842ms)
+				ProcessInitializeOnLoadMethodAttributes (183ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.062502 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/belleparker/Documents/GitHub/unityartistbootcamp/Unity Artist Bootcamp/Assets/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/belleparker/Documents/GitHub/unityartistbootcamp/Unity Artist Bootcamp/Assets/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.362 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5364ms)
+		BeginReloadAssembly (435ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (4328ms)
+			LoadAssemblies (502ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1556ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (187ms)
+			SetupLoadedEditorAssemblies (2054ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (386ms)
+				ProcessInitializeOnLoadAttributes (1440ms)
+				ProcessInitializeOnLoadMethodAttributes (178ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/2021.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.36 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3230 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (37.1 KB). Loaded Objects now: 3690.
+Memory consumption went from 93.7 MB to 93.7 MB.
+Total: 9.344261 ms (FindLiveObjects: 0.637555 ms CreateObjectMapping: 0.343063 ms MarkObjects: 8.212845 ms  DeleteObjects: 0.149205 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 321057.666519 seconds.
+  path: Assets/Materials/White_Plastic.mat
+  artifactKey: Guid(8bd2590300c43d74aaae9238893066a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White_Plastic.mat using Guid(8bd2590300c43d74aaae9238893066a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee41d4d262ced88270405d03d1d17158') in 4.285694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Materials/Paint-Kenmore-15119-Black.mat
+  artifactKey: Guid(2e56f42ddaca3af4596ee9d9cf8a0b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Paint-Kenmore-15119-Black.mat using Guid(2e56f42ddaca3af4596ee9d9cf8a0b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2990aeaff2c6b1e2cb3267e1f4b86caf') in 0.020617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Materials/GraniteSlab.mat
+  artifactKey: Guid(bb647b74e19b68945b9ce887c65832a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GraniteSlab.mat using Guid(bb647b74e19b68945b9ce887c65832a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373cffa6a429e2e749bca3b335aa9e95') in 2.374095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Materials/Rubber-Kenmore-Grey-Matte.mat
+  artifactKey: Guid(34b35bf2ecf77b546b42257da0a28308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rubber-Kenmore-Grey-Matte.mat using Guid(34b35bf2ecf77b546b42257da0a28308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9293157d57442aa663e1c84c9fd0997b') in 0.020564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Materials/StainlessSteele.mat
+  artifactKey: Guid(9ecaf6ce8185db14799c492776836768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StainlessSteele.mat using Guid(9ecaf6ce8185db14799c492776836768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0dc97455b9cf6172f514fad94b7f33') in 0.012646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Materials/Bronze_Rubbed.mat
+  artifactKey: Guid(a78ec93ecddb51a4f8497c4445bb7bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bronze_Rubbed.mat using Guid(a78ec93ecddb51a4f8497c4445bb7bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30acfd553bd5d077f2124b8a5a412a77') in 0.020612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Materials/PaintStainless.mat
+  artifactKey: Guid(51313d6487275f24daeb3c2e27c788cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PaintStainless.mat using Guid(51313d6487275f24daeb3c2e27c788cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe5c582b16c0512c0b4a5e7baef20ce') in 0.026840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Materials/Wood_Tile.mat
+  artifactKey: Guid(5b0074be51a848e4196648d9a13237df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wood_Tile.mat using Guid(5b0074be51a848e4196648d9a13237df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9120fe133b136de9b7dd4ef48cae0467') in 0.023947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Materials/White_Paint.mat
+  artifactKey: Guid(9c27e685825ea7341b8262bf1d9881a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White_Paint.mat using Guid(9c27e685825ea7341b8262bf1d9881a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be0681ef005eb9ff7c9ff26191e6617') in 0.041851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Materials/CastEnamel.mat
+  artifactKey: Guid(5fb6be95ab569314fad94eb02505943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CastEnamel.mat using Guid(5fb6be95ab569314fad94eb02505943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39a24e57de4ef735e5b54b5b08c4568') in 0.060435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Materials/Bronze.mat
+  artifactKey: Guid(1550018de9db57b48bc82e9ae4e34054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bronze.mat using Guid(1550018de9db57b48bc82e9ae4e34054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b96674e2d7fb972aa023be447e9532') in 0.019606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Materials/Glass.mat
+  artifactKey: Guid(4db2ed3c58626d94eb81afe3f5f0fd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glass.mat using Guid(4db2ed3c58626d94eb81afe3f5f0fd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9131eb184772aecb55fba9b2ab7663') in 0.118342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Materials/Steel.mat
+  artifactKey: Guid(a525b129842e2cd48aa6e9e86c963f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Steel.mat using Guid(a525b129842e2cd48aa6e9e86c963f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286fc4ce28d1fd54e81497718d34b421') in 0.112692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Materials/Plastic-Kenmore-Black-Matte.mat
+  artifactKey: Guid(563851a7a51863c4e9f07497f8495c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plastic-Kenmore-Black-Matte.mat using Guid(563851a7a51863c4e9f07497f8495c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3025a0cf4e6dffc324e59a0f4241b8da') in 0.119384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Materials/Lit_Bulb.mat
+  artifactKey: Guid(5bb88ca8edd64a547ac5bb7b9242e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Lit_Bulb.mat using Guid(5bb88ca8edd64a547ac5bb7b9242e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b223003587f43f9ba2986eed806cf8') in 0.036020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Materials/Walnut_Wood.mat
+  artifactKey: Guid(db2192e6b6b1c0846800b214287fd918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Walnut_Wood.mat using Guid(db2192e6b6b1c0846800b214287fd918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107b44a491f15364404ffae93d7a3eb1') in 3.347134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Materials/Wood_Cherry.mat
+  artifactKey: Guid(d8799a9959ee03f4390b3eb991529b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wood_Cherry.mat using Guid(d8799a9959ee03f4390b3eb991529b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94795a4edc0d09a162ff793f57bd8d6') in 0.019664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Materials/Snap Locations.mat
+  artifactKey: Guid(45779dbcfe1cd6947bdcef227ddf1d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Snap Locations.mat using Guid(45779dbcfe1cd6947bdcef227ddf1d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f02d4ee2ab765f1d6adbc09e1e1c79d') in 0.023271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001169 seconds.
+  path: Assets/Materials/Ceiling_Paint.mat
+  artifactKey: Guid(4a5445510ee621f47bf216fad55d2c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ceiling_Paint.mat using Guid(4a5445510ee621f47bf216fad55d2c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bed315c189e09c9282e0ebb05324b61') in 0.079918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003940 seconds.
+  path: Assets/Materials/Wall_Paint.mat
+  artifactKey: Guid(59a6d4e5c8e82864bbbf3ffbe892f4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wall_Paint.mat using Guid(59a6d4e5c8e82864bbbf3ffbe892f4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a9d1324dc9861f029df167f5996221') in 0.029596 seconds 
